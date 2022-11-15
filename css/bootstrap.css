@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+:root {
+  --txtcolor: #00004c;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 30px 0;
+  background-color: transparent;
+}
+.header nav li a {
+  color: var(--txtcolor);
+  font-size: 25px;
+}
+.header .logo a {
+  font-size: 33px;
+  color: var(--txtcolor);
+}
+.btn {
+  padding: 14px 24px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: var(--txtcolor);
+  border: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #04042c;
+}
+.commercial {
+  padding: 250px 0;
+  background-image: url(../image/background1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: -130px;
+  color: var(--txtcolor);
+}
+.commercial h1 {
+  font-size: 40px;
+}
+.commercial p {
+  font-size: 24px;
+}
+/* our futures */
+.ourfutures {
+  padding: 75px 0;
+  background-color: rgba(255, 255, 0, 0.427);
+}
+.ourfutures h3 {
+  font-size: 35px;
+}
+.futureimg {
+  width: 100%;
+  height: 250px;
+}
+.futureimg img {
+  width: 100%;
+  height: 100%;
+}
+.unique {
+  padding: 105px 0;
+  background-color: #fed1c3;
+}
+.uniqueimg {
+  width: 100%;
+  height: 450px;
+}
+.uniqueimg img {
+  width: 100%;
+  height: 100%;
+}
+.uniquetxt {
+  line-height: 35px;
+}
+.credit {
+  padding: 90px 0;
+  color: #fff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table tr {
+  border-bottom: 1px solid black;
+}
+table tr td {
+  padding: 40px 30px;
+  font-size: 35px;
+  color: #00004c;
+}
+.corecrew {
+  padding: 105px 0;
+  background-color: #ffcda4;
+}
+.coreimg {
+  width: 100%;
+  height: 350px;
+}
+.coreimg img {
+  width: 100%;
+  height: 100%;
+}
+.corecrew h3 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.corecrew span,
+h4 {
+  color: var(--txtcolor);
+}
+.ourclients {
+  padding: 60px 0;
+  background-color: var(--txtcolor);
+}
+
+.clientimg {
+  width: 100%;
+  height: 150px;
+}
+.clientimg img {
+  width: 100%;
+  height: 100%;
+}
+.answers {
+  padding: 60px 0;
+}
+.questions {
+  padding: 105px 0;
+  background-color: rgba(255, 255, 0, 0.356);
+}
+.questions h3 {
+  font-size: 35px;
+}
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+  width: 100%;
+}
+button {
+  border-radius: 30px;
+  background-color: transparent;
+}
+iframe {
+  width: 100%;
+}
+.footer {
+  padding: 105px 0;
+  background-color: var(--txtcolor);
+}
+.footer h3 {
+  font-size: 20px;
+  color: #fff;
+}
+.footer ul li a {
+  color: rgb(134, 131, 131);
+}
+.footer ul li a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}

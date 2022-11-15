@@ -1,0 +1,24 @@
+@media (max-width:768px) {
+    /* .commercial,
+    .unique,
+    .corecrew,
+    .answers{
+        text-align: center;
+    } */
+    .table tr:first-child {
+      display: none;
+    }
+    .table tr {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+ 
+}
+@media(max-width:992px){
+    .header nav,
+    .table .col{
+        display: none;
+      }
+    
+}
